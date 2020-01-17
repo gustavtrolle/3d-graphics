@@ -1,7 +1,9 @@
 # 3-D graphics display
 
 This program displays a 3D prism. 
+
 The program is developed with the javax.swing (JFrame) and java.awt.event packages.
+
 The edges are stored as double arrays in an ArrayList<double[]>. These arrays represent the absolute positions of the edges (specifically their two vertices) in 3-D space.
 The x-y-z position, horizontal and vertical rotational angles, and the horizontal and vertical fields of view of the display are stored in variables.
 As the user moves the mouse, these variables change and the program updates the display.
