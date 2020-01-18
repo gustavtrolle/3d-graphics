@@ -15,4 +15,4 @@ The translated vertices are then rotated according to the display's rotational a
 The rotated vertices are then scaled down along the x and y axes, according to their ratio (along the axes) with the fields of view.
 Finally, the scaled vertices are projected onto the display (i.e. the z-coordinate is 0).
 
-When the user moves the mouse off the screen, the mouse is moved back to the middle of the screen, while the parameter variables of the display remain the same.
+When the user moves the mouse off the screen, the mouse is moved to the other side of the screen, while the parameter variables of the display remain the same.
